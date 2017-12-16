@@ -1,6 +1,6 @@
 <template>
-  <div class="header">
-    我是 header!
+  <div class="content">
+    I am content!
   </div>
 </template>
 

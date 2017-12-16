@@ -1,23 +1,35 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+
+    <v-header></v-header>
+
+    <div class="tab">
+      <div class="tab-items">商品</div>
+      <div class="tab-items">评论</div>
+      <div class="tab-items">商家</div>
+    </div>
+
+    <div class="content">
+      I am content
+    </div>
+
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+
+  import header from './components/header/header.vue'
+
+  export default {
+    name: 'app',
+    components: { 'v-header': header}
+  }
+
+
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    
+  }
 </style>

@@ -1,17 +1,19 @@
 <template>
-  <div class="header">
-    我是 header!
+  <div id="App">
+
   </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
+
   export default {
+    name: '',
     data: function () {
       return {}
     }
   }
 </script>
 
-<style>
+<style lang="scss">
 
 </style>
