@@ -18,13 +18,18 @@
 
   export default {
     name: 'app',
-    components: { 'v-header': header, 'v-tab': tab}
+    components: { 'v-header': header, 'v-tab': tab},
+    data: function() {
+      return {
+        seller: {}
+      }
+    }
   }
 
 
 </script>
 
-<style>
+<style rel="stylesheet/scss" lang="scss">
   html, body {
     font-size: 16px;
   }

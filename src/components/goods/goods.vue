@@ -11,8 +11,9 @@
       return {}
     }
   }
+
 </script>
 
-<style lang="scss" scoped>
+<style rel="stylesheet/scss" lang="scss" scoped>
 
 </style>
